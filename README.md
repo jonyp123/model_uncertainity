@@ -2,7 +2,7 @@ Problem:
 AI models are not able to analyze their own knowledge efficiently enough to reliably mark an answer as unknow/uncertain.
 
 Hypothesis:
-By giving a model little amount of neuron paths and tracking variance on simple test cases, we can reliably measure uncertainity.
+Constraining the number of available neuron paths and analyzing activation variance on simple tasks may allow uncertainty to emerge as a measurable property of the system.
 
 Motivation:
 Implementation of reliable uncertainity scale in AI models carries various benefits:
@@ -10,4 +10,9 @@ Implementation of reliable uncertainity scale in AI models carries various benef
   - Model's ability to request specific data examples it needs to learn:
     > Decent accuracy with little training data;
     > Possibly suggesting new dependencies and experiments for science questions.
-    
+
+Initial scope:
+  - numerical sequences;
+  - simple symbolic dependencies;
+  - low-parameter neural architectures;
+  - uncertainty scoring based on internal variance;
