@@ -1,3 +1,6 @@
+#SOLVED - CONCLUSIONS
+High certainity is not an achievement if model memorizes instead of learning
+
 Problem:
 AI models are not able to analyze their own knowledge efficiently enough to reliably mark an answer as unknow/uncertain.
 
