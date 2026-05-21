@@ -1,4 +1,4 @@
-#SOLVED - CONCLUSIONS
+# SOLVED - CONCLUSIONS
 High certainity is not an achievement if model memorizes instead of learning
 
 Problem:
